@@ -1,0 +1,36 @@
+.TopBarElement {
+    /* color: black; */
+    padding:5; 
+    margin:5;
+    min-width:50 ;
+    color: gray;
+    border-bottom: 1px solid transparent ;
+    cursor:pointer
+}
+
+.TopBarElement:hover{
+    color:black;
+}
+
+.TopBarElement.active{
+    color:black;
+    border-bottom:1px solid black;
+}
+
+.TopBarElementsWithDropdown {
+    color:gray;
+    margin: 5px;
+    padding: 5px;
+    min-width:50;
+    cursor:pointer;
+    botton-border:1px solid transparent;
+}
+
+.TopBarElementsWithDropdown:hover {
+    color:black;
+}
+
+.TopBarElementsWithDropdown.active {
+    color:black;
+    border-bottom:1px solid black;
+}
