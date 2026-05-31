@@ -12,11 +12,11 @@ export function TopBar(){
             <SearchBar placeholder={"Search"}/>
         </div>
         <div style={{display:"flex"}}>
-            <TopBarElements selected={true} title={"Home"} icon={<House />} />
-            <TopBarElements selected={false} title={"My Network"} icon={<Network />} />
-            <TopBarElements selected={false} title={"Jobs"} icon={<BriefcaseBusiness />} />
-            <TopBarElements selected={false} title={"Messaging"} icon={<MessageCircleMore />} />
-            <TopBarElements selected={false} title={"Notifications"} icon={<Bell />} />
+            <TopBarElements selected={true} notificationBadge={false} title={"Home"} icon={<House />} />
+            <TopBarElements selected={false} notificationBadge={false} title={"My Network"} icon={<Network />} />
+            <TopBarElements selected={false} notificationBadge={true} title={"Jobs"} icon={<BriefcaseBusiness />} />
+            <TopBarElements selected={false} notificationBadge={false} title={"Messaging"} icon={<MessageCircleMore />} />
+            <TopBarElements selected={false} notificationBadge={false} title={"Notifications"} icon={<Bell />} />
             
             <TopBarElementsWithDropdown selected={false} title={"Mayank Airy"} icon={<User />} drop={<ChevronDown />} />
             <TopBarElementsWithDropdown selected={false} title={"For Bussiness"} icon={<Grid3x3 />} drop={<ChevronDown />} />

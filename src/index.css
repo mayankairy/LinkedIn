@@ -1,11 +1,12 @@
 .TopBarElement {
-    /* color: black; */
     padding:5; 
     margin:5;
-    min-width:50 ;
+    min-width:50;
     color: gray;
     border-bottom: 1px solid transparent ;
-    cursor:pointer
+    cursor:pointer;
+    /* vertical-align:baseline;
+    font-family: inherit; */
 }
 
 .TopBarElement:hover{
@@ -19,8 +20,8 @@
 
 .TopBarElementsWithDropdown {
     color:gray;
-    margin: 5px;
-    padding: 5px;
+    margin: 5;
+    padding: 5;
     min-width:50;
     cursor:pointer;
     botton-border:1px solid transparent;
@@ -33,4 +34,25 @@
 .TopBarElementsWithDropdown.active {
     color:black;
     border-bottom:1px solid black;
+}
+
+
+.badge {
+    /* position:relative; */
+    /* top:-7px;
+    right:2px;
+    padding: 0px 4px; */
+    /* display:none; */
+    width:15px;
+    height:15px;
+    border-radius:50%;
+    color:white;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge.active{
+    
 }
